@@ -2,9 +2,9 @@
 # The Backend Botanist
 
 ### Learning Objectives
-- Familiarize using `datetime` library.
-- Learn how to use table modules to beautify outputs.
-- Get more practice reading information from JSON files.
+- Familiarize using [datetime](https://docs.python.org/3/library/datetime.html#module-datetime) library.
+- Learn how to use table modules [tabulate](https://github.com/astanin/python-tabulate), [PrettyTable](https://github.com/jazzband/prettytable), or [texttable](https://github.com/foutaise/texttable) to beautify outputs.
+- Get more practice reading information from [JSON](https://docs.python.org/3/library/json.html#module-json) files.
 
 ### Assignment Goals
 - Using the supplied [`plant_info.json`](./plant_info.json) file as input, write a Python program that will create a plant watering schedule that covers the next 12 weeks from an arbitrary start date.
@@ -46,11 +46,11 @@ Write a function `create_table()` that converts the final schedule into a 'beaut
 This is a real world entry level application, based off a take home programming challenge given by a company in Chicago in Dec 2019. The original challenge did not outline the steps that needed to be taken to accomplish the challenge. The steps are based off of the solution Enrique Galindo (SE6) wrote and Eric Hanson contributed to. 
 
 ### PR (Pull Request) Workflow for this Assignment
-1. *Fork* this repository into your own personal github account
-2. Then *Clone* your own repo to your local development machine.
+1. This repo does not allow forking.  Instead, create a copy by using the green "Use This Template" button.
+2. *Clone* your copy of the repo to your local development machine.
 3. Create a separate branch named `dev`, and checkout the branch.
 4. Commit your changes, then `git push` the branch back to your own github account.
 5. From your own Github repo, create a pull request (PR) from your `dev` branch back to your own master.
-6. Copy/Paste the URL **link to your PR** as your assignment submission.
+6. Copy/Paste the URL **link to your PR** as your assignment submission in Canvas.
 7. Your grader will post code review comments inline with your code, in your github account. Be sure to respond to any comments and make requested changes. **RESUBMIT** a new link to your PR after making changes.  This is the code review iteration cycle.
 
